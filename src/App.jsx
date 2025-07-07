@@ -44,7 +44,7 @@ const handleClear=()=>{
        <div className='todo-input'>
        <h1>TODO-APP</h1>
        <input  ref={inputRef} type="text" value={todoInput} onChange={handleInput}/>
-<button onClick={handleClick} disabled={!todoInput.trim()} className='add-button'>add</button>
+<button onClick={handleClick} disabled={!todoInput.trim()} className='add-button'>add Task</button>
 
     </div>
 
