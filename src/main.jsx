@@ -8,7 +8,7 @@ import FetchComponent from './components/newcomponent.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App /> */}
-<FetchComponent/>
+    <App />
+{/* <FetchComponent/> */}
   </StrictMode>,
 )
